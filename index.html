@@ -1,0 +1,50 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet"></link>
+    <link rel="stylesheet" href="/css/styles.css" />
+    <script src="/index.js"></script>
+    
+
+  </head>
+  <body>
+    <div class="main-page">
+
+      <div id="ping-icon"><img src="/images/logo.svg" alt="PING" /></div>
+      
+      <div class="launch-text">
+        
+        <p id="line1">We are launching <b>soon!</b></p><br>
+
+        <p id="line2">Subscribe and get notified</p>
+        
+      </div>
+
+      <div class="email-form">
+        <form >
+          <input type="email" required placeholder="Your email address ..." id="email"
+          oninput="setCustomValidity('')"
+          oninvalid="this.setCustomValidity('Please provide a valid email address')"/>
+              </form>
+          <button id="button">Notify me</button>
+        </div>
+        
+
+      <img
+        src="/images/illustration-dashboard.png"
+        alt="illustration-dashboard"
+      />
+
+      <div class="social-icons">
+        <a href="#" class="fa fa-facebook" id="fb"></a>
+        <a href="#" class="fa fa-twitter" id="twit"></a>
+        <a href="#" class="fa fa-instagram" id="insta"></a>
+      </div>
+
+      <div id="copyright">&copy; Copyright Ping. All rights reserved.</div>
+    </div>
+  </body>
+</html>
