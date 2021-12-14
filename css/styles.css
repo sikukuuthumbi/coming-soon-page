@@ -4,113 +4,61 @@
   padding: 0;
   font-family: "Libre Franklin", sans-serif;
   font-size: 20px;
-  font-weight: 300;
+}
+body {
+  height: 100vh;
 }
 .main-page {
-  align-content: center;
-  margin: 30 30;
+  margin: 30 50;
   display: flex;
-  justify-content: space-around;
   flex-direction: column;
-  justify-content: center;
-  font-family: "Libre Franklin", sans-serif;
+  align-items: center;
 }
-.launch-text,
-.social-icons,
-#ping-icon,
-#copyright {
-  display: flex;
-  justify-content: center;
-  font-family: "Libre Franklin", sans-serif;
+h2 {
+  font-weight: 25;
+  font-size: 35px;
 }
-#email,
-#button {
-  margin-bottom: 20px;
-  height: 45px;
-  width: 210px;
+header {
+  margin-bottom: 50px;
+}
+.main-image {
+  width: 95vw;
+}
+
+.email-form {
   border-radius: 30px;
+  margin-bottom: 35px;
 }
-#button {
+button {
   color: white;
   background-color: hsl(214, 74%, 55%);
   border-style: none;
   cursor: pointer;
+  width: 260px;
 }
-.launch-text {
-  flex-direction: column;
-  height: 120px;
-  margin-bottom: 20px;
-}
-.social-icons {
-  justify-content: space-evenly;
-  padding: 20 30;
-}
-#copyright {
-  font-size: 13px;
+.text {
+  margin-bottom: 25px;
   white-space: nowrap;
 }
-#line1 {
-  font-size: 25px;
-  font-weight: 50;
-}
-#line2 {
-  font-weight: 300;
-}
-@media screen and (min-device-width: 376px) and (max-device-width: 1440px) {
-  .main-page {
-    align-content: center;
-    margin: 10 10;
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column;
-    justify-content: center;
-  }
 
-  .launch-text,
-  .social-icons,
-  #ping-icon,
-  #copyright {
-    display: flex;
-    justify-content: center;
-    font-family: "Libre Franklin", sans-serif;
-  }
-  #email,
-  #button {
-    margin-bottom: 20px;
-    height: 45px;
-    border-radius: 30px;
-  }
-  .email-form {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-  }
-  #button {
-    color: white;
-    background-color: hsl(214, 74%, 55%);
-    border-style: none;
-    cursor: pointer;
-    width: 200px;
-  }
-  .launch-text {
-    align-items: center;
-    height: 120px;
-    margin-bottom: 20px;
-  }
-  .social-icons {
-    justify-content: space-evenly;
-    padding: 20 50;
-  }
-  #email {
-    margin-right: 20px;
-    width: 350px;
-  }
-  #copyright {
-    white-space: nowrap;
-  }
+.icon {
+  padding-right: 100px;
 }
-@media screen and (min-device-width: 376px) and (max-device-width: 600px) {
-  #email {
-    width: 240px;
+.fa {
+  flex-direction: row;
+  margin: 30 0 30 0;
+  border-radius: 50%;
+}
+.fa-twitter {
+  margin: 0 30 0 30;
+}
+
+footer {
+  white-space: nowrap;
+}
+
+@media only screen and (min-device-width: 376px) {
+  .fa-twitter {
+    margin: 0 100 0 100;
   }
 }

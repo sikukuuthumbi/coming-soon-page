@@ -4,47 +4,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet"></link>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <link rel="stylesheet" href="/css/styles.css" />
     <script src="/index.js"></script>
-    
-
   </head>
   <body>
     <div class="main-page">
+      <header class="ping-icon">
+        <img src="/images/logo.svg" alt="PING" />
+      </header>
 
-      <div id="ping-icon"><img src="/images/logo.svg" alt="PING" /></div>
-      
-      <div class="launch-text">
-        
-        <p id="line1">We are launching <b>soon!</b></p><br>
+      <h2 class="text">We are launching <strong>soon!</strong></h2>
 
-        <p id="line2">Subscribe and get notified</p>
-        
-      </div>
+      <p class="text">Subscribe and get notified</p>
 
-      <div class="email-form">
-        <form >
-          <input type="email" required placeholder="Your email address ..." id="email"
+      <form>
+        <input
+          type="email"
+          required
+          placeholder="Your email address ..."
+          id="email"
+          class="email-form"
           oninput="setCustomValidity('')"
-          oninvalid="this.setCustomValidity('Please provide a valid email address')"/>
-              </form>
-          <button id="button">Notify me</button>
-        </div>
-        
+          oninvalid="this.setCustomValidity('Please provide a valid email address')"
+        />
+        <button class="email-form">Notify me</button>
+      </form>
 
       <img
+        class="main-image"
         src="/images/illustration-dashboard.png"
         alt="illustration-dashboard"
       />
-
-      <div class="social-icons">
-        <a href="#" class="fa fa-facebook" id="fb"></a>
-        <a href="#" class="fa fa-twitter" id="twit"></a>
-        <a href="#" class="fa fa-instagram" id="insta"></a>
-      </div>
-
-      <div id="copyright">&copy; Copyright Ping. All rights reserved.</div>
+      <a href="#" class="fa fa-facebook"></a>
+      <a href="#" class="fa fa-twitter"></a>
+      <a href="#" class="fa fa-instagram"></a>
+      <footer>&copy; Copyright Ping. All rights reserved.</footer>
     </div>
   </body>
 </html>
